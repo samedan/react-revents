@@ -57,7 +57,7 @@ class TestComponent extends Component {
     const {
       incrementAsync,
       decrementAsync,
-      data,
+      // data,
       openModal,
       loading
     } = this.props;
