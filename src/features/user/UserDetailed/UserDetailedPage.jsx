@@ -34,7 +34,8 @@ class UserDetailedPage extends Component {
         <UserDetailedHeader profile={profile} />
         <UserDetailedDescription profile={profile} />
         <UserDetailedSidebar />
-        {photos && photos.length > 0 && <UserDetailedPhotos />}
+
+        {photos && photos.length > 0 && <UserDetailedPhotos photos={photos} />}
 
         <UserDetailedEvents />
 

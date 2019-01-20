@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Grid, Header, Image, Menu, Segment } from 'semantic-ui-react';
 
-const UserDeteiledEvents = () => {
+const UserDetailedEvents = () => {
   return (
     <Grid.Column width={12}>
       <Segment attached>
@@ -39,4 +39,4 @@ const UserDeteiledEvents = () => {
   );
 };
 
-export default UserDeteiledEvents;
+export default UserDetailedEvents;
