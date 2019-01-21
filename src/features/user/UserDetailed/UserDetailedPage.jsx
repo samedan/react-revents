@@ -35,7 +35,7 @@ const mapState = (state, ownProps) => {
 class UserDetailedPage extends Component {
   render() {
     const { profile, photos, auth, match, requesting } = this.props;
-    const isCurrentUser = auth.ui === match.params.id;
+    const isCurrentUser = auth.uid === match.params.id;
     const loading = Object.values(requesting).some(a => a === true);
     if (loading) return <LoadingComponent inverted={true} />;
     return (
